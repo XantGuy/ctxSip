@@ -1,0 +1,33 @@
+<button class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown" title="Show Keypad">
+                    <i class="fa fa-th"></i>
+                </button>
+                <div id="sip-dialpad" class="dropdown-menu">
+                    <button type="button" class="btn btn-default digit" data-digit="1">1<span>&nbsp;</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="2">2<span>ABC</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="3">3<span>DEF</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="4">4<span>GHI</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="5">5<span>JKL</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="6">6<span>MNO</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="7">7<span>PQRS</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="8">8<span>TUV</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="9">9<span>WXYZ</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="*">*<span>&nbsp;</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="0">0<span>+</span></button>
+                    <button type="button" class="btn btn-default digit" data-digit="#">#<span>&nbsp;</span></button>
+                    <div class="clearfix">&nbsp;</div>
+                    <button class="btn btn-success btn-block btnCall" title="Send">
+                        <i class="fa fa-play"></i> Send
+                    </button>
+                    
+                    <audio id="ringtone" src="sounds/incoming.mp3" loop></audio>
+                    <audio id="ringbacktone" src="sounds/outgoing.mp3" loop></audio>
+                    <audio id="dtmfTone" src="sounds/dtmf.mp3"></audio>
+                    <audio id="audioRemote"></audio>
+
+                    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                    <script type="text/javascript" src="scripts/moment.js/moment.min.js"></script>
+
+                    <script type="text/javascript" src="scripts/SIP.js/sip.min.js"></script>
+                    <script type="text/javascript" src="scripts/config.js"></script>
+                    <script type="text/javascript" src="scripts/app.js"></script>
